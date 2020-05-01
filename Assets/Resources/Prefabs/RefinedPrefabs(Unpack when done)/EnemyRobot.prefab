@@ -1,0 +1,2278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1245254214447623203
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9126011169422318080, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_Name
+      value: Enemy2 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169422318080, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169422318081, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.161701
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169422318081, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5871876
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169422318081, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.1953125
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169422318081, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169422318081, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169422318081, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169422318081, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169422318081, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169422318081, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169422318081, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169422318081, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360059, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: EnemyTags.Array.data[0]
+      value: Enemy1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360059, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: swordSpeed
+      value: 25000
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360059, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: MinimalInteractionDistance
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360059, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: DefendDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360059, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: MinimalAttackDistance
+      value: 1.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360059, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: BattleDistance
+      value: 2.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360059, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: BattleActionCooldown
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childIndexes.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childIndexes.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childIndexes.Array.data[2]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childIndexes.Array.data[3]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childIndexes.Array.data[4]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childIndexes.Array.data[5]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childIndexes.Array.data[6]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childIndexes.Array.data[7]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childIndexes.Array.data[8]
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childIndexes.Array.data[9]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childIndexes.Array.data[10]
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childIndexes.Array.data[11]
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childIndexes.Array.data[12]
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childIndexes.Array.data[13]
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childIndexes.Array.data[14]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childFlags.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childFlags.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childFlags.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childFlags.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childFlags.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childFlags.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childFlags.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childFlags.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childFlags.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childFlags.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childFlags.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childFlags.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childFlags.Array.data[13]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childFlags.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].childFlags.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].kinshipDegrees.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].kinshipDegrees.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].kinshipDegrees.Array.data[3]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].kinshipDegrees.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].kinshipDegrees.Array.data[5]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].kinshipDegrees.Array.data[6]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].kinshipDegrees.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].kinshipDegrees.Array.data[8]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].kinshipDegrees.Array.data[9]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].kinshipDegrees.Array.data[10]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].kinshipDegrees.Array.data[11]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].kinshipDegrees.Array.data[12]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].kinshipDegrees.Array.data[13]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].kinshipDegrees.Array.data[14]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].kinshipDegrees.Array.data[15]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].childIndexes.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].childIndexes.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].childFlags.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].childFlags.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].kinshipDegrees.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].kinshipDegrees.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].kinshipDegrees.Array.data[3]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].kinshipDegrees.Array.data[4]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].kinshipDegrees.Array.data[5]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].kinshipDegrees.Array.data[6]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].kinshipDegrees.Array.data[7]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].kinshipDegrees.Array.data[8]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].kinshipDegrees.Array.data[9]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].kinshipDegrees.Array.data[10]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].kinshipDegrees.Array.data[11]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].kinshipDegrees.Array.data[12]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].kinshipDegrees.Array.data[13]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].kinshipDegrees.Array.data[14]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].kinshipDegrees.Array.data[15]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].parentIndexes.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].childIndexes.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].childFlags.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].kinshipDegrees.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].kinshipDegrees.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].kinshipDegrees.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].kinshipDegrees.Array.data[4]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].kinshipDegrees.Array.data[5]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].kinshipDegrees.Array.data[6]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].kinshipDegrees.Array.data[7]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].kinshipDegrees.Array.data[8]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].kinshipDegrees.Array.data[9]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].kinshipDegrees.Array.data[10]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].kinshipDegrees.Array.data[11]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].kinshipDegrees.Array.data[12]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].kinshipDegrees.Array.data[13]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].kinshipDegrees.Array.data[14]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].kinshipDegrees.Array.data[15]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].parentIndexes.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].parentIndexes.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].kinshipDegrees.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].kinshipDegrees.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].kinshipDegrees.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].kinshipDegrees.Array.data[4]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].kinshipDegrees.Array.data[5]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].kinshipDegrees.Array.data[6]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].kinshipDegrees.Array.data[7]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].kinshipDegrees.Array.data[8]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].kinshipDegrees.Array.data[9]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].kinshipDegrees.Array.data[10]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].kinshipDegrees.Array.data[11]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].kinshipDegrees.Array.data[12]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].kinshipDegrees.Array.data[13]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].kinshipDegrees.Array.data[14]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].kinshipDegrees.Array.data[15]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].childIndexes.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].childIndexes.Array.data[1]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].childFlags.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].childFlags.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].kinshipDegrees.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].kinshipDegrees.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].kinshipDegrees.Array.data[2]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].kinshipDegrees.Array.data[3]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].kinshipDegrees.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].kinshipDegrees.Array.data[6]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].kinshipDegrees.Array.data[7]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].kinshipDegrees.Array.data[8]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].kinshipDegrees.Array.data[9]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].kinshipDegrees.Array.data[10]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].kinshipDegrees.Array.data[11]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].kinshipDegrees.Array.data[12]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].kinshipDegrees.Array.data[13]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].kinshipDegrees.Array.data[14]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].kinshipDegrees.Array.data[15]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].parentIndexes.Array.data[0]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].childIndexes.Array.data[0]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].childFlags.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].kinshipDegrees.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].kinshipDegrees.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].kinshipDegrees.Array.data[2]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].kinshipDegrees.Array.data[3]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].kinshipDegrees.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].kinshipDegrees.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].kinshipDegrees.Array.data[7]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].kinshipDegrees.Array.data[8]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].kinshipDegrees.Array.data[9]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].kinshipDegrees.Array.data[10]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].kinshipDegrees.Array.data[11]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].kinshipDegrees.Array.data[12]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].kinshipDegrees.Array.data[13]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].kinshipDegrees.Array.data[14]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].kinshipDegrees.Array.data[15]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].parentIndexes.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].parentIndexes.Array.data[1]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].kinshipDegrees.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].kinshipDegrees.Array.data[1]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].kinshipDegrees.Array.data[2]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].kinshipDegrees.Array.data[3]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].kinshipDegrees.Array.data[4]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].kinshipDegrees.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].kinshipDegrees.Array.data[7]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].kinshipDegrees.Array.data[8]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].kinshipDegrees.Array.data[9]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].kinshipDegrees.Array.data[10]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].kinshipDegrees.Array.data[11]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].kinshipDegrees.Array.data[12]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].kinshipDegrees.Array.data[13]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].kinshipDegrees.Array.data[14]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].kinshipDegrees.Array.data[15]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].childIndexes.Array.data[0]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].childIndexes.Array.data[1]
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].childIndexes.Array.data[2]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].childIndexes.Array.data[3]
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].childIndexes.Array.data[4]
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].childIndexes.Array.data[5]
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].childIndexes.Array.data[6]
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].childIndexes.Array.data[7]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].childFlags.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].childFlags.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].childFlags.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].childFlags.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].childFlags.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].childFlags.Array.data[13]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].childFlags.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].childFlags.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].kinshipDegrees.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].kinshipDegrees.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].kinshipDegrees.Array.data[2]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].kinshipDegrees.Array.data[3]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].kinshipDegrees.Array.data[4]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].kinshipDegrees.Array.data[5]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].kinshipDegrees.Array.data[6]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].kinshipDegrees.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].kinshipDegrees.Array.data[9]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].kinshipDegrees.Array.data[10]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].kinshipDegrees.Array.data[11]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].kinshipDegrees.Array.data[12]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].kinshipDegrees.Array.data[13]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].kinshipDegrees.Array.data[14]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].kinshipDegrees.Array.data[15]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].parentIndexes.Array.data[0]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].childIndexes.Array.data[0]
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].childIndexes.Array.data[1]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].childIndexes.Array.data[2]
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].childIndexes.Array.data[3]
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].childIndexes.Array.data[4]
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].childIndexes.Array.data[5]
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].childIndexes.Array.data[6]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].childFlags.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].childFlags.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].childFlags.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].childFlags.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].childFlags.Array.data[13]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].childFlags.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].childFlags.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].kinshipDegrees.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].kinshipDegrees.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].kinshipDegrees.Array.data[2]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].kinshipDegrees.Array.data[3]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].kinshipDegrees.Array.data[4]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].kinshipDegrees.Array.data[5]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].kinshipDegrees.Array.data[6]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].kinshipDegrees.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].kinshipDegrees.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].kinshipDegrees.Array.data[10]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].kinshipDegrees.Array.data[11]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].kinshipDegrees.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].kinshipDegrees.Array.data[13]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].kinshipDegrees.Array.data[14]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].kinshipDegrees.Array.data[15]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].parentIndexes.Array.data[0]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].parentIndexes.Array.data[1]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].childIndexes.Array.data[0]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].childIndexes.Array.data[1]
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].childFlags.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].childFlags.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].kinshipDegrees.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].kinshipDegrees.Array.data[1]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].kinshipDegrees.Array.data[2]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].kinshipDegrees.Array.data[3]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].kinshipDegrees.Array.data[4]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].kinshipDegrees.Array.data[5]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].kinshipDegrees.Array.data[6]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].kinshipDegrees.Array.data[7]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].kinshipDegrees.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].kinshipDegrees.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].kinshipDegrees.Array.data[11]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].kinshipDegrees.Array.data[12]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].kinshipDegrees.Array.data[13]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].kinshipDegrees.Array.data[14]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[9].kinshipDegrees.Array.data[15]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].parentIndexes.Array.data[0]
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].parentIndexes.Array.data[1]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].parentIndexes.Array.data[2]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].childIndexes.Array.data[0]
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].childFlags.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].kinshipDegrees.Array.data[0]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].kinshipDegrees.Array.data[1]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].kinshipDegrees.Array.data[2]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].kinshipDegrees.Array.data[3]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].kinshipDegrees.Array.data[4]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].kinshipDegrees.Array.data[5]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].kinshipDegrees.Array.data[6]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].kinshipDegrees.Array.data[7]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].kinshipDegrees.Array.data[8]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].kinshipDegrees.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].kinshipDegrees.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].kinshipDegrees.Array.data[12]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].kinshipDegrees.Array.data[13]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].kinshipDegrees.Array.data[14]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[10].kinshipDegrees.Array.data[15]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].parentIndexes.Array.data[0]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].parentIndexes.Array.data[1]
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].parentIndexes.Array.data[2]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].parentIndexes.Array.data[3]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].kinshipDegrees.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].kinshipDegrees.Array.data[1]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].kinshipDegrees.Array.data[2]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].kinshipDegrees.Array.data[3]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].kinshipDegrees.Array.data[4]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].kinshipDegrees.Array.data[5]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].kinshipDegrees.Array.data[6]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].kinshipDegrees.Array.data[7]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].kinshipDegrees.Array.data[8]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].kinshipDegrees.Array.data[9]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].kinshipDegrees.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].kinshipDegrees.Array.data[12]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].kinshipDegrees.Array.data[13]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].kinshipDegrees.Array.data[14]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[11].kinshipDegrees.Array.data[15]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].parentIndexes.Array.data[0]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].parentIndexes.Array.data[1]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].kinshipDegrees.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].kinshipDegrees.Array.data[1]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].kinshipDegrees.Array.data[2]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].kinshipDegrees.Array.data[3]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].kinshipDegrees.Array.data[4]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].kinshipDegrees.Array.data[5]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].kinshipDegrees.Array.data[6]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].kinshipDegrees.Array.data[7]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].kinshipDegrees.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].kinshipDegrees.Array.data[9]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].kinshipDegrees.Array.data[10]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].kinshipDegrees.Array.data[11]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].kinshipDegrees.Array.data[13]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].kinshipDegrees.Array.data[14]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].kinshipDegrees.Array.data[15]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].parentIndexes.Array.data[0]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].parentIndexes.Array.data[1]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].childIndexes.Array.data[0]
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].childIndexes.Array.data[1]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].childFlags.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].childFlags.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].kinshipDegrees.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].kinshipDegrees.Array.data[1]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].kinshipDegrees.Array.data[2]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].kinshipDegrees.Array.data[3]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].kinshipDegrees.Array.data[4]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].kinshipDegrees.Array.data[5]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].kinshipDegrees.Array.data[6]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].kinshipDegrees.Array.data[7]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].kinshipDegrees.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].kinshipDegrees.Array.data[9]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].kinshipDegrees.Array.data[10]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].kinshipDegrees.Array.data[11]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].kinshipDegrees.Array.data[12]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].kinshipDegrees.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[13].kinshipDegrees.Array.data[15]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].parentIndexes.Array.data[0]
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].parentIndexes.Array.data[1]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].parentIndexes.Array.data[2]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].childIndexes.Array.data[0]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].childFlags.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].kinshipDegrees.Array.data[0]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].kinshipDegrees.Array.data[1]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].kinshipDegrees.Array.data[2]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].kinshipDegrees.Array.data[3]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].kinshipDegrees.Array.data[4]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].kinshipDegrees.Array.data[5]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].kinshipDegrees.Array.data[6]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].kinshipDegrees.Array.data[7]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].kinshipDegrees.Array.data[8]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].kinshipDegrees.Array.data[9]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].kinshipDegrees.Array.data[10]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].kinshipDegrees.Array.data[11]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].kinshipDegrees.Array.data[12]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].kinshipDegrees.Array.data[13]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[14].kinshipDegrees.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].parentIndexes.Array.data[0]
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].parentIndexes.Array.data[1]
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].parentIndexes.Array.data[2]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].parentIndexes.Array.data[3]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].kinshipDegrees.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].kinshipDegrees.Array.data[1]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].kinshipDegrees.Array.data[2]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].kinshipDegrees.Array.data[3]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].kinshipDegrees.Array.data[4]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].kinshipDegrees.Array.data[5]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].kinshipDegrees.Array.data[6]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].kinshipDegrees.Array.data[7]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].kinshipDegrees.Array.data[8]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].kinshipDegrees.Array.data[9]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].kinshipDegrees.Array.data[10]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].kinshipDegrees.Array.data[11]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].kinshipDegrees.Array.data[12]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].kinshipDegrees.Array.data[13]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[15].kinshipDegrees.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[0].props.pinWeight
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[1].props.pinWeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[2].props.pinWeight
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[3].props.pinWeight
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[4].props.pinWeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[5].props.pinWeight
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[6].props.pinWeight
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[7].props.pinWeight
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[8].props.pinWeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: muscles.Array.data[12].props.pinWeight
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: fixTargetTransforms
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: stateSettings.enableInternalCollisionsOnKill
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170027858016, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -17.161701
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170027858016, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.2878124
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170027858016, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 15.1953125
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170651402602, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.004798794
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170651402602, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.022432052
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170651402602, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0.07701111
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169803641412, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.36098257
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169803641412, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.000000061001636
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169803641412, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0.00000078976154
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170118718321, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.45237395
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170118718321, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.00000007910422
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170118718321, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0.0000023333123
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169580592057, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.36098263
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169580592057, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.00000012270176
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169580592057, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.00000067800283
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170077320519, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.45237428
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170077320519, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.00000015401747
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170077320519, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0.000001846347
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169983807990, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.2712888
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169983807990, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.00000044703478
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169983807990, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.0000003278254
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170487699035, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.27208692
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170487699035, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.00000005215409
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170487699035, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.00000081956387
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011171197010072, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.27128923
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011171197010072, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.000000014901155
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011171197010072, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.000000089406875
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170295298575, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.27208668
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170295298575, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.0000000074505775
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170295298575, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.0000012088564
+      objectReference: {fileID: 0}
+    - target: {fileID: 9173492769549341284, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: 0.18600297
+      objectReference: {fileID: 0}
+    - target: {fileID: 9173492769549341284, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: -0.0035514832
+      objectReference: {fileID: 0}
+    - target: {fileID: 9173492769549341284, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: -0.05138588
+      objectReference: {fileID: 0}
+    - target: {fileID: 9173492769549341284, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.13720965
+      objectReference: {fileID: 0}
+    - target: {fileID: 9173492769549341284, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.04068914
+      objectReference: {fileID: 0}
+    - target: {fileID: 9173492769549341284, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.09801328
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360060, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360058, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: _health
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169294360058, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: _maxHealth
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170027858020, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170215527363, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169786462206, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.004798794
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169786462206, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.02243203
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169786462206, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.07701111
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169278608482, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.043673106
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169278608482, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.0033419058
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170220435352, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.35196823
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170220435352, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.020217948
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170220435352, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0.18976976
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169227817728, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.35196826
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169227817728, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.020216972
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011169227817728, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.18977164
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170205858579, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: onLoseBalance.unityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170205858579, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170205858579, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: knockOutDistance
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170205858579, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: onLoseBalance.unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170205858579, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: onLoseBalance.unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170205858579, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: onLoseBalance.unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8065404679195783643}
+    - target: {fileID: 9126011170205858579, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: onLoseBalance.unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Kill
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170205858579, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: onLoseBalance.unityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170205858579, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: boostFalloff
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170205858579, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: masterProps.normalMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170205858579, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: defaults.unpinParents
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170205858579, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: defaults.unpinChildren
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170205858579, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: unpinnedMuscleWeightMlp
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9126011170205858579, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: maxRigidbodyVelocity
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 9219072974244728606, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: m_Time
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 993864403271985312, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+        type: 3}
+      propertyPath: _emit
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 62bb1105723c8fd4fb0c354d16ff1976, type: 3}
+--- !u!114 &8065404679195783643 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9126011169294360056, guid: 62bb1105723c8fd4fb0c354d16ff1976,
+    type: 3}
+  m_PrefabInstance: {fileID: 1245254214447623203}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c86ba130e5a5458a98e3b482192a6dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
