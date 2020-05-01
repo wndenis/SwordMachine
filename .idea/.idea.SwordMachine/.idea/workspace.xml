@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3915ec97-cf35-44b4-84b2-99b55b04170a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Vector3 snapOffset</find>
+      <find>HeldSword.TipTransform.position</find>
+      <find>target =</find>
+      <find>target = null</find>
+      <find>print</find>
+      <find>enemyStates</find>
+      <find>hasweapon</find>
+      <find>Idle</find>
+      <find>pin</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/SmartEnemyDriver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Debug_destroying.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EnemyIK.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/SmartEnemyBodyDriver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/RootMotion/RagdollManager/Scripts/RagdollEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/SmartEnemyHandDriver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/InteractionType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/SmartEnemyHeadDriver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/EnemyState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/PropMelee.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/StateMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/SwordUse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/States/Await.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/States/Idle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/GestureCapture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/States/BattleDecision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/States/Attack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/States/Defend.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Sword.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/States/Arm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/States/Disarm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/FreeCamera/FreeCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Scripts/AnimatorIKDemo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/SwordSFX.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/RootMotion/Shared Scripts/Comments.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/RootMotion/PuppetMaster/Scripts/PuppetMaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Units/UnitPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Units/IDamageable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Units/UnitAI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Units/PlayableUnit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Core/Scripts/BodyCollider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/RootMotion/PuppetMaster/Scripts/Prop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/RootMotion/Editor/PuppetMaster/_DEMOS/CharacterPuppetInspector.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/DebugHitSound.cs" />
+        <option value="$PROJECT_DIR$/Assets/SmartEnemyHandDriver.cs" />
+        <option value="$PROJECT_DIR$/Assets/SmartEnemyBodyDriver.cs" />
+        <option value="$PROJECT_DIR$/Assets/SmartEnemyDriver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/EnemyState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/EnemyStates.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/StateType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/InteractionType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/EnemyStateType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/Attack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/State.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/States/GetWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/States/RunAway.cs" />
+        <option value="$PROJECT_DIR$/Assets/StateMachineBehaiours/EnemyStateMachineBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/States/BattleDacision.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Units/IDamageable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/StateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/SmartEnemyBodyDriver.cs" />
+        <option value="$PROJECT_DIR$/Assets/navhelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/EnemyState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/FreeCamera/FreeCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/TargetSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/SlowmoSwordCam.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/AdvancedPhysics/OVRGrabbablePhys.cs" />
+        <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/AdvancedPhysics/OVRGrabberPhys.cs" />
+        <option value="$PROJECT_DIR$/Assets/AnimReset.cs" />
+        <option value="$PROJECT_DIR$/Assets/DemoTarget.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/SmartEnemyHandDriver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/States/Idle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/States/Await.cs" />
+        <option value="$PROJECT_DIR$/Assets/EnemySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/StopAtEnd.cs" />
+        <option value="$PROJECT_DIR$/Assets/DEBUG_SwitchSword.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/SwordSFX.cs" />
+        <option value="$PROJECT_DIR$/Assets/IKPG.cs" />
+        <option value="$PROJECT_DIR$/Assets/Shoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Debug_destroying.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/SwordUse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/SmartEnemyHeadDriver.cs" />
+        <option value="$PROJECT_DIR$/Assets/EnemyIK.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Sword.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/States/Arm.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/States/Disarm.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/SmartEnemyDriver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/States/BattleDecision.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Units/PlayableUnit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/States/Defend.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/EnemyAI/StateMachine/States/Attack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Units/UnitAI.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="riderModule/invalid/Default Android Facet" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectId" id="1QhhxcD9MpK3Q9i3aUG5AeOGH8p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CodeInspectionSettingsId" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="7676">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="7676" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="14424">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="14424" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3915ec97-cf35-44b4-84b2-99b55b04170a" name="Default Changelist" comment="" />
+      <created>1543300941897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543300941897</updated>
+      <workItem from="1543300953271" duration="4665000" />
+      <workItem from="1546730180135" duration="748000" />
+      <workItem from="1546860924665" duration="32800000" />
+      <workItem from="1547003456013" duration="22027000" />
+      <workItem from="1547109149653" duration="6266000" />
+      <workItem from="1547120512159" duration="19874000" />
+      <workItem from="1547155330152" duration="986000" />
+      <workItem from="1547183970532" duration="358000" />
+      <workItem from="1547207722762" duration="9589000" />
+      <workItem from="1547229345951" duration="4699000" />
+      <workItem from="1547296265594" duration="9682000" />
+      <workItem from="1547387758930" duration="230000" />
+      <workItem from="1547388545108" duration="591000" />
+      <workItem from="1548256713744" duration="3751000" />
+      <workItem from="1548271334429" duration="7307000" />
+      <workItem from="1548327542935" duration="12119000" />
+      <workItem from="1549602303890" duration="624000" />
+      <workItem from="1549610410766" duration="5053000" />
+      <workItem from="1550256704248" duration="2030000" />
+      <workItem from="1551502873699" duration="682000" />
+      <workItem from="1556899542070" duration="6088000" />
+      <workItem from="1557236392822" duration="332000" />
+      <workItem from="1557247103527" duration="3381000" />
+      <workItem from="1558617711359" duration="6000" />
+      <workItem from="1558625346954" duration="12000" />
+      <workItem from="1558634078267" duration="17270000" />
+      <workItem from="1568229179770" duration="1163000" />
+      <workItem from="1574267516271" duration="3347000" />
+      <workItem from="1574406379048" duration="10774000" />
+      <workItem from="1574426716070" duration="751000" />
+      <workItem from="1574447134558" duration="2784000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
