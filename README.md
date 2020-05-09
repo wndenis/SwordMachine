@@ -9,6 +9,7 @@ VR фехтование с роботами в 4KULTRAHD со спецэффек
   
 - Assets/Resources/Models/ - тяжелые текстуры и модели  
 ```  
+Модели, текстурирование: https://www.artstation.com/mikhailsmirnov
 ## Трейлер того, что там происходит (клик по картинке для просмотра видео)  
 [![](http://img.youtube.com/vi/6kroJbSi0lA/0.jpg)](http://www.youtube.com/watch?v=6kroJbSi0lA "Video Trailer")
   
