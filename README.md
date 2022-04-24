@@ -1,5 +1,6 @@
 # SwordMachine
 VR фехтование с роботами в 4KULTRAHD со спецэффектами и милой физикой 🙂  
+![screenshot](https://github.com/wndenis/SwordMachine/raw/master/Screenshots/5.png)
 Работает с Unity 2019.3.0f1
 ```
 Внешние зависимости:
